@@ -50,7 +50,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">유지선, 이신명, 문경률, 이유진</p>
+                <p class="masthead-subheading font-weight-light mb-0">유지선과 그의 아이들</p>
             </div>
         </header>
         <!-- Portfolio Section-->

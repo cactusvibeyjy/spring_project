@@ -14,7 +14,7 @@
 <script type="text/javascript">
 
 
- <% response.sendRedirect("moveMain.do"); %>
+ <% response.sendRedirect("#movierank"); %>
 
 </script>
 </html>

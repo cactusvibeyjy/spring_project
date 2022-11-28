@@ -44,7 +44,7 @@ function setData(data) {
     return JSON.parse(data);
 }
 
-/* function reserveEvent() {
+/*function reserveEvent() {
     document.querySelectorAll('.reserveButton').forEach((list, index) => {
         // console.log(list);
        //  console.log(index);
@@ -76,7 +76,7 @@ function detailEvent(data){
 } */
 
 
-function getList(data, index) {
+/*function getList(data, index) {
     return `<form action="#movierank" method="post" class="movie-informaion" id="${index}">
     
     <div class="movie-rank">${data.rank}</div>
@@ -96,4 +96,4 @@ function getList(data, index) {
     <input type="hidden" name="movieRate" value=${data.movieRate}>
     
 </form>`;
-}
+}*/

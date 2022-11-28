@@ -28,7 +28,7 @@ public class MovieRankingController {
 	
 	
 	@ResponseBody
-	@RequestMapping(value = "#movierank", method = {RequestMethod.GET, RequestMethod.POST}, produces="text/plain;charset=UTF-8")
+	@RequestMapping(value = "crawling.do", method = {RequestMethod.GET, RequestMethod.POST}, produces="text/plain;charset=UTF-8")
 	public String getCrawling() {
 		
 		System.out.print("AAA");

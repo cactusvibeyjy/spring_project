@@ -142,7 +142,7 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">박스오피스 리스트 뿌리기</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">역대 최다 관객 영화 TOP 20</p></div>
                     <!-- <div class="col-lg-4 me-auto"><p class="lead">할말</p></div> -->
                 </div>
                 <!-- About Section Button-->
@@ -155,7 +155,7 @@
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section" id="movierank">
+        <section class="page-section portfolio" id="movierank">
             <div class="container">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">실시간 영화 랭킹</h2>
@@ -165,21 +165,29 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+            
                 <!-- Contact Section Form-->
-                
-                <div class="row justify-content-center">
-                    <div class="movie-infomation-wrapper">
-                 <div class="movie-informaion">
-                    <div class="movie-rank">No.1</div>
-                    <div class="poster-wrapper"><img src="resources/assets/img/portfolio/background.jpg"></div>
-                    <div>
-                        <div class="movie-title">제목aaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-                        <div class="movie-rate"><span>예매율</span><span style="margin-left: 10px;">22.5%</span></div>
-                        <div class="movie-date">2020.02.26 재개봉</div>
-                    </div>
-                </div>
-                </div>
+                  <!--class="row justify-content-center" --> 
+           <!--  <div class="row justify-content-center">
+            	<div class="col-md-6 col-lg-4 mb-5">
+            	<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"> -->
+            	<!-- <div class="portfolio-item mx-auto"> -->
+	               <div class="movie-infomation-wrapper">
+	                 <div class="movie-informaion">
+	                    <div class="movie-rank">No.1</div>
+	                    <div class="poster-wrapper"><img src="resources/assets/img/portfolio/background.jpg"></div>
+	                    <div>
+	                        <div class="movie-title">제목aaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+	                        <div class="movie-rate"><span>예매율</span><span style="margin-left: 10px;">22.5%</span></div>
+	                        <div class="movie-date">2020.02.26 재개봉</div>
+	                    </div>
+	                </div>
+	               </div>
+	               </div> 
+	         <!--       </div>
             </div>
+           </div> -->
+            
         </section>
         <!-- Footer-->
         <footer class="footer text-center">

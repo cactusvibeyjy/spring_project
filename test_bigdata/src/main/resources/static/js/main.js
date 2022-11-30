@@ -20,7 +20,7 @@ function add() {
             console.log(crawlingData);
 //            console.log(data);
             if(crawlingData.length === 0){
-            	location.href="#movierank";
+            	location.href=" ";
             }
             setList(data);
             reserveEvent();
@@ -76,7 +76,7 @@ function detailEvent(data){
 } */
 
 
-/*function getList(data, index) {
+function getList(data, index) {
     return `<form action="#movierank" method="post" class="movie-informaion" id="${index}">
     
     <div class="movie-rank">${data.rank}</div>
@@ -85,7 +85,7 @@ function detailEvent(data){
         <div class="movie-title">${data.movieTitle}</div>
         <div class="movie-rate"><span>예매율</span><span style="margin-left: 10px;">${data.movieRate}</span></div>
         <div class="movie-date">${data.movieOpenDate}</div>
-        <div class="like-reserve-wrapper">
+        
            
     </div>
     <input type="hidden" name="rank" value=${data.rank}>
@@ -96,4 +96,4 @@ function detailEvent(data){
     <input type="hidden" name="movieRate" value=${data.movieRate}>
     
 </form>`;
-}*/
+}
